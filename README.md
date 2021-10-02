@@ -10,4 +10,3 @@ https://qiita.com/ucan-lab/items/56c9dc3cf2e6762672f4
 - `php artisan key:generate`
 - `php artisan storage:link`
 - `chmod -R 777 storage bootstrap/cache`
-- `php artisan migrate`
