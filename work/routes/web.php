@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\IwatubeTop;
+use App\Http\Controllers\IwatubeMovie;
+use App\Http\Controllers\IwatubeAccount;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +16,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/',IwatubeTop::class);
+Route::get('/watch/{id}',[IwatubeMovie::class,'index']);
+
