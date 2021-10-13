@@ -10,7 +10,7 @@
     @endif
   </div>
 @endif
-<h1>IWATUBE</h1>  
+<h1><a href="{{ url('/')}}" style="text-decoration:none;">IWATUBE</a></h1>
 <div>
     <h2>動画一覧</h2>
     <table border="1">

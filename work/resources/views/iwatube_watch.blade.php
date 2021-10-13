@@ -10,7 +10,7 @@
     @endif
   </div>
 @endif
-<h1>IWATUBE</h1>  
+<h1><a href="{{ url('/')}}" style="text-decoration:none;">IWATUBE</a></h1>
 <div>
     <video controls width="500px" height="300px">
     <source src="{{asset('Movies/'.$movie->movie_name)}}">
